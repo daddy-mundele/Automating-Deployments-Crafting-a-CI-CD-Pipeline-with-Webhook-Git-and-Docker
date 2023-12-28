@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Git Webhook Deployment</title>
+</head>
+<body>
+  <h1>Git Webhook Deployment</h1>
+  <p>Configure Git webhook with the following details:</p>
+  
+  <ul>
+    <li><strong>Payload URL:</strong> http://172.18.0.1:8080/hooks/deploy-webhook</li>
+    <li><strong>Content Type:</strong> application/json</li>
+  </ul>
+
+  <p>Remember to set up your webhook secret and other relevant configurations in your Git repository.</p>
+
+  <p>Save the webhook configuration, and your server should now receive deployment events from Git.</p>
+</body>
+</html>
