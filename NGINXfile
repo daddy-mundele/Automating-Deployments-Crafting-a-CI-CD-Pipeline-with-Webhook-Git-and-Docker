@@ -1,0 +1,4 @@
+location /hooks/deploy-webhook {
+    # Your configuration for handling the webhook requests
+    # ...
+}
